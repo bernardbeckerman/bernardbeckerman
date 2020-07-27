@@ -5,10 +5,10 @@
 Jot down some words you see!
 
 ```
-T A G G 
-E N K T 
-D R L I 
-H L O S 
+V L W E 
+K P C R 
+B U O E 
+G D S L 
 ```
 
 Valid words consist of strings of letters connected vertically, horizontally, or diagonally, with each letter being used at most once per word.
@@ -16,15 +16,15 @@ Valid words consist of strings of letters connected vertically, horizontally, or
 ## Last board:
 
 ```
-T N O L 
-F M E A 
-R Z W E 
-A E O P 
+T A G G 
+E N K T 
+D R L I 
+H L O S 
 ```
 
 latest score: 0
 
-highest possible: 129
+highest possible: 224
 
 your valid words:
 
@@ -36,8 +36,8 @@ your invalid words:
 
 words not in puzzle:
 
-
+buckle, my, one, shoe, two
 
 all valid words:
 
-ae, aeon, al, ale, alee, alew, aloe, alone, ar, are, arew, arf, arm, aw, awe, awee, aweel, azo, ea, eale, ear, ee, eel, een, el, em, emo, en, enol, eon, er, era, erf, ewe, ewer, fra, frae, la, law, lawer, lawmen, lea, lee, leep, lemon, leno, lent, lew, lez, lo, lome, loment, lone, me, meal, mee, mel, mela, melon, men, meno, ment, mew, meze, mo, moa, moe, mol, mola, mole, mon, mzee, ne, neal, nee, neep, new, newer, no, noel, nole, nom, nome, oe, ole, olea, olent, om, omen, on, one, op, ope, ow, owe, ower, pe, pea, peal, pee, peel, peen, pew, po, pow, power, poz, raze, razee, re, reo, rew, rez, wae, wale, we, weal, wear, weazen, wee, weel, weem, ween, weep, wem, wen, went, wo, woe, wop, za, zarf, zea, zeal, zee, zel, zo, zoea, zoeae, zoeal
+ae, aero, aeros, ag, an, and, andro, andros, ane, ant, ante, anted, at, ate, de, dean, den, dent, dern, dero, deros, drent, droil, droils, droit, droll, drolls, ea, ean, eat, ed, edh, en, end, eng, enlit, enrol, enroll, enrolls, enrols, er, erk, ern, eros, et, eta, etna, gae, gaed, gaen, gan, gander, gane, gant, ganted, gat, gate, gated, gater, gnat, ikan, ikat, ilk, ilka, ill, io, ios, is, iso, it, ka, kae, kaed, kane, kang, kant, kanted, kat, ki, kill, kiln, kilned, kilo, kilos, kilt, kiore, kis, kit, knag, kreng, li, lis, lit, lo, lor, lord, lore, lorn, los, na, nae, nag, nat, ne, neat, ned, nerd, nerk, nerka, nerol, neroli, nerolis, nerols, net, oi, oik, oil, oils, old, olden, older, or, ord, ore, ornate, os, re, reak, rean, red, ren, rend, renga, renk, rent, ret, retag, roil, roils, roll, rolls, rosit, si, sik, sika, silk, sill, silo, silt, sit, sitka, slit, so, soil, sol, sold, solde, solder, soli, sord, sore, sored, sorn, sorned, ta, tae, taed, tag, tak, taki, takis, tan, tane, tang, tank, te, tea, teak, ted, ten, tend, tern, ti, tika, til, till, tils, tis
