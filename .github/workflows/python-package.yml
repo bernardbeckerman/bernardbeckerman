@@ -24,7 +24,7 @@ jobs:
         echo ::set-env name=REPOSITORY::${{ github.repository }}
         echo ::set-env name=EVENT_ISSUE_NUMBER::${{ github.event.issue.number }}
         echo ::set-env name=EVENT_USER_LOGIN::${{ github.event.issue.user.login }}
-        echo ::set-env name=EVENT_ISSUE_COMMENT::${{ github.event.issue.comment.body }}
+        echo ::set-env name=EVENT_ISSUE_COMMENT::${{ github.event.issue.body }}
 
     - name: Set up Python ${{ matrix.python-version }}
       uses: actions/setup-python@v2
