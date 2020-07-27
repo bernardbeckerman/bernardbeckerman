@@ -1,8 +1,19 @@
-Hi There!
+# Hi there!
 
-# Current board
+## Current board
 
 Jot down some words you see!
+
+```
+S R E K 
+R C O R 
+E E U O 
+B N V R 
+```
+
+Valid words consist of strings of letters connected vertically, horizontally, or diagonally, with each letter being used at most once per word.
+
+## Last board:
 
 ```
 S E Q M 
@@ -11,29 +22,22 @@ W O A W
 B A R E 
 ```
 
-Valid words consist of strings of 3 letters or longer, connected vertically, horizontally, or diagonally, with each letter being used at most once.
+latest score: 1
 
-# Last board:
-
-```
-E A S B 
-M E I N 
-N E R A 
-R T W E 
-```
-
-your score: 0
-
-highest possible: 643
+highest possible: 436
 
 your valid words:
 
+bar
 
 your invalid words:
+
 baz, foo
 
 words not in puzzle:
-bar
 
-all valid words: 
-ae, aerie, aerier, aeries, aesir, ai, aia, aias, ain, ains, air, airer, airn, airns, airt, ais, am, ameer, amen, amene, ament, amnesia, an, ani, anis, anise, ansa, ansae, ar, are, area, areae, areas, arene, arenes, ares, aret, arew, aria, arias, aris, arise, arisen, art, as, aw, awe, awee, bi, bias, bien, bier, bin, bins, bireme, biremes, bis, bise, ea, ean, eans, ear, earn, earns, eas, ease, easement, easer, easier, ee, een, eerie, eerier, eina, em, eme, emeer, emeries, emes, en, ene, enema, enemas, enes, enew, enmew, enter, entera, entrain, entrains, entree, entries, er, era, ere, eres, ern, erne, ernes, erns, es, et, ewe, ewer, ewt, in, ins, inseam, inseem, insert, inserter, ire, ires, is, isna, isnae, ma, mae, maes, main, mains, mair, maire, maires, maise, mas, mase, maser, me, mease, mee, meer, mees, meet, mein, meins, men, mene, menes, ment, mere, merer, meres, meri, meris, mes, mesa, mesian, met, metre, metres, mew, na, nae, nare, nares, naris, naw, ne, nee, neem, nema, nemas, nemesia, nereis, net, new, newer, newt, nib, nibs, nie, nies, nis, rai, raia, raias, rain, rains, rais, raise, ran, rani, ranis, raw, rawer, re, ream, reame, reamer, rean, reans, ree, reen, rees, rei, rein, reins, reinsert, reis, rem, remain, remains, remen, remet, ren, renew, rent, rente, renter, reraise, reran, reremai, rerent, rerise, rerisen, res, resin, ret, retrain, retrains, retree, retries, rew, rewan, rewear, rewet, ria, rias, rib, ribs, riem, rin, rins, rinse, rise, risen, sae, sai, sain, sair, sairer, sam, same, samen, sea, seam, seame, seamen, seamer, see, seem, seemer, seen, seer, sei, seir, seme, semeia, semen, sen, sene, sent, sente, ser, sera, serai, sere, serein, serer, seriema, serin, si, sib, sien, sient, sin, sir, sire, siree, siren, snar, snare, snarer, snarier, snaw, snib, snirt, te, tee, teem, teen, teer, tees, teme, temes, ten, tene, tenes, terai, terais, teres, tern, terne, ternes, terns, tew, train, trains, trans, transe, tree, treen, trees, trema, tremas, tres, trew, trie, triene, trienes, trier, tries, trin, trins, triseme, twa, twae, twain, twains, twee, tween, tweer, wae, wai, wain, wains, wair, wais, wan, wanier, wans, war, ware, wares, warier, warn, warns, wart, we, wean, weans, wear, wearer, wearier, wearies, wee, weem, ween, weer, wees, weir, weise, wem, wen, went, were, wert, wet, wren, wrier, wries
+
+
+all valid words:
+
+aa, ab, abo, abore, ad, admen, ae, aeon, aeons, aero, an, ane, anes, anew, angora, anoa, anow, ar, are, area, aread, areae, arew, aroba, arow, aw, awe, awed, awee, awn, awned, awns, awrong, ba, baa, baaed, bar, bare, baron, barong, barongs, barons, bawn, bawns, bo, boa, boar, bog, bogs, bon, bona, bone, boned, bones, bong, bongs, bor, bora, borane, boranes, bore, bow, bowne, bowned, bownes, da, dae, dan, dang, dangs, dans, dare, daw, dawen, de, dean, deans, dear, deare, deaw, dee, deen, deens, dees, den, denar, dene, denes, dens, dense, dew, dewan, dewans, dewar, dwang, dwangs, ea, ean, eaned, eans, ear, ed, ee, een, ego, em, en, ene, enes, enew, eng, engore, engs, enow, ens, eoan, eon, eons, er, era, es, esne, ewe, ewer, gee, geed, gen, gena, gene, genoa, gens, gnar, gnaw, gnawed, gnawer, gnow, go, goa, goad, gob, goe, gon, gonad, gone, gons, gor, gora, gore, gown, gowned, gowns, me, mead, mean, meane, meanes, means, meare, med, mee, mees, men, menad, mene, menes, meng, menge, menges, mengs, meno, mense, meow, mew, na, nae, nare, naw, ne, near, ned, nee, need, neem, neg, negs, new, newer, no, nob, nog, nogs, nor, now, oar, ob, oba, oe, ogee, on, one, ones, ons, or, ora, orad, orang, orange, oranges, orangs, ore, oread, ow, own, owned, owns, quean, queans, queen, queens, quena, rad, rade, ran, ranee, ranees, rang, range, ranges, raw, rawbone, rawboned, rawn, rawns, re, read, rean, reans, rew, rewan, rewed, road, roadmen, roan, roans, rob, roe, roed, rone, rones, rong, row, see, seed, seem, seen, seg, segno, sego, sen, sena, sene, senor, senora, snar, snare, snaw, snawed, snead, sned, snee, sneed, snob, snog, snore, snow, wab, wad, wade, wae, wan, wane, waned, wanes, wang, wangs, wans, war, ware, we, wean, weaned, weans, wear, wed, wee, ween, weens, wees, wem, wen, wena, wenge, wenges, wens, wero, wo, woad, woe, wog, wogs, won, wons, wore, wrang, wrangs, wrong, wrongs
