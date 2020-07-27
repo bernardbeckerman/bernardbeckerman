@@ -11,7 +11,7 @@ import os
 import urllib.parse
 
 data_dir = 'https://raw.githubusercontent.com/bernardbeckerman/boggle/master/data/'
-ISSUE_BASE_URL = 'https://github.com/bernardbeckerman/bernardbeckerman/issues/new?title=scratch&body='
+ISSUE_BASE_URL = 'https://github.com/bernardbeckerman/bernardbeckerman/issues/new?title=shake&body='
 
 #make trie of all English words
 def make_trie(mydict='sowpods'):
