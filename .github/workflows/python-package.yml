@@ -1,0 +1,39 @@
+# This workflow will install Python dependencies, run tests and lint with a variety of Python versions
+# For more information see: https://help.github.com/actions/language-and-framework-guides/using-python-with-github-actions
+
+name: "bogDown"
+
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  shake:
+    runs-on: ubuntu-latest
+    
+    strategy:
+      matrix:
+        python-version: [3.5, 3.6, 3.7, 3.8]
+    if: startsWith(github.event.issue.title, "shake")
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+      
+    - name: Set env vars
+      run: |
+        echo ::set-env name=REPOSITORY::${{ github.repository }}
+        echo ::set-env name=EVENT_ISSUE_NUMBER::${{ github.event.issue.number }}
+        echo ::set-env name=EVENT_USER_LOGIN::${{ github.event.issue.user.login }}
+
+    - name: Set up Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v2
+      with:
+        python-version: ${{ matrix.python-version }}
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install boggle
+        if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+    - name: Shake
+      run: |
+        python -c "print('shook!')"
