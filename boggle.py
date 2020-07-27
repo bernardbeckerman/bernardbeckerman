@@ -202,7 +202,7 @@ class Board:
             f.write(readme_str)
 
         # push to master
-        os.system('git config --global user.name "GitHub Action Bot"`')
+        os.system('git config --global user.name "GitHub Action Bot"')
         os.system('git config --global user.email "github-action-bot@example.com"')
         os.system('git add README.md board.pkl')
         os.system("git commit -m 'ROBOT: refreshing readme and board'")
