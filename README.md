@@ -5,10 +5,10 @@
 Jot down some words you see!
 
 ```
-R S E W 
-R I M L 
-E E J S 
-R A R N 
+T N O L 
+F M E A 
+R Z W E 
+A E O P 
 ```
 
 Valid words consist of strings of letters connected vertically, horizontally, or diagonally, with each letter being used at most once per word.
@@ -16,15 +16,15 @@ Valid words consist of strings of letters connected vertically, horizontally, or
 ## Last board:
 
 ```
-S R E K 
-R C O R 
-E E U O 
-B N V R 
+R S E W 
+R I M L 
+E E J S 
+R A R N 
 ```
 
 latest score: 0
 
-highest possible: 220
+highest possible: 226
 
 your valid words:
 
@@ -32,12 +32,12 @@ your valid words:
 
 your invalid words:
 
-baz, foo
+
 
 words not in puzzle:
 
-bar
+
 
 all valid words:
 
-be, bee, been, beer, beers, ben, bene, bere, bevor, cee, cere, cero, coenure, coke, coo, cor, core, corer, corers, cork, corker, corkers, cors, cour, coure, cree, croove, crore, cue, cur, cure, curer, curers, curve, cuvee, eco, ecu, ee, een, eevn, en, ene, enure, eocene, er, ere, erev, erk, err, error, errs, ers, eruv, euro, evo, kero, ko, kor, kore, korero, koro, kors, koru, korun, ne, neb, nee, nu, nur, oe, oke, oo, oor, or, orc, orcs, ore, ors, ou, our, oven, over, overcure, overs, overscore, re, reb, rebec, rebecs, rec, recork, recoure, recs, recur, recure, recurve, ree, reen, ren, reo, rerun, rev, roc, rocs, roe, rok, roke, roker, rokers, roo, rook, rore, roue, rouen, rove, roven, rover, rovers, ruc, rucs, rue, ruer, ruers, run, rune, scene, score, scorer, scour, scourer, scree, screen, scur, un, unbe, ur, ure, vee, veer, veers, vers, vor, vrou
+ae, aerie, aerier, aeries, ajee, ar, are, arere, ars, ea, ear, earn, earns, ears, ee, eerie, eisel, eisels, el, elm, elmier, elms, els, em, eme, emeer, emeers, emes, emir, emirs, ems, er, era, ere, ern, erns, err, errs, ers, es, ire, is, ism, isms, ja, jar, jars, jee, jeer, jeers, jerries, jirre, jism, jisms, lei, leir, leirs, leis, leme, les, lew, lwei, lweis, me, meare, mee, meer, meers, mel, mels, mere, merer, meri, meris, merrier, merries, merse, mes, mew, mewl, mewls, mi, mir, mire, mirs, mis, mise, raj, rare, raree, rarer, re, rear, rearer, rearers, rears, ree, reearn, reearns, rei, reis, rem, remise, rems, rerise, riel, riels, riem, riems, rim, rime, rimer, rimers, rimes, rims, rise, sei, seir, sel, sels, seme, semee, semi, semie, sew, si, sim, sims, sir, sire, siree, sirree, slew, smear, smearer, smearers, smears, smee, smew, smir, smirr, smirrs, smirs, sri, we, weir, weirs, wem, wems
