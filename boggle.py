@@ -176,23 +176,23 @@ class Board:
         valid_words.sort()
         invalid_words.sort()
 
-        readme_str = '\n\n'.join(["# Last board:"
+        readme_str = '\n\n'.join(["## Last board:"
                                   , self.display_github()
-                                  , "your score: " + str(sum_word_scores(set(words_in_puzzle)))
+                                  , "latest score: " + str(sum_word_scores(set(words_in_puzzle)))
                                   , "highest possible: " + str(sum_word_scores(set(all_words)))
-                                  , "your valid words:\n" + ", ".join(sorted(set(words_in_puzzle)))
-                                  , "your invalid words:\n" + ", ".join(sorted(set(invalid_words)))
-                                  , "words not in puzzle:\n" + ", ".join(sorted(set(valid_words) - set(words_in_puzzle)))
-                                  , "all valid words: \n" + ", ".join(sorted(set(all_words)))
+                                  , "your valid words:\n\n" + ", ".join(sorted(set(words_in_puzzle)))
+                                  , "your invalid words:\n\n" + ", ".join(sorted(set(invalid_words)))
+                                  , "words not in puzzle:\n\n" + ", ".join(sorted(set(valid_words) - set(words_in_puzzle)))
+                                  , "all valid words:\n\n" + ", ".join(sorted(set(all_words)))
         ])
         
         # create and save new board
         self.shake()
-        readme_str = '\n\n'.join(["Hi There!"
-                                  , "# Current board"
+        readme_str = '\n\n'.join(["# Hi there!"
+                                  , "## Current board"
                                   , "Jot down some words you see!"
                                   , self.display_github()
-                                  , "Valid words consist of strings of 3 letters or longer, connected vertically, horizontally, or diagonally, with each letter being used at most once."
+                                  , "Valid words consist of strings of letters connected vertically, horizontally, or diagonally, with each letter being used at most once per word."
                                   , readme_str])
         
         with open('board.pkl', 'wb') as f:
