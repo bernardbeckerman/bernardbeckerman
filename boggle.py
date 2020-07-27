@@ -197,7 +197,7 @@ class Board:
         # create and save new board
         self.shake()
         query = self.display_github() + "\n\n" + marker_line + "\n\n"
-        linkstr += urllib.parse.quote(query)
+        linkstr = ISSUE_BASE_URL + urllib.parse.quote(query)
         readme_str = '\n\n'.join(["# Hi there!"
                                   , "## Current board"
                                   , "Jot down some words you see!"
