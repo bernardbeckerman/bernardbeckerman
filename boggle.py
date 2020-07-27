@@ -159,7 +159,7 @@ class Board:
 
     def play_github(self, user_words = None, play_minutes = 3):
 
-        marker_line = "DON'T DELETE THIS LINE. Write a comma-separated list of words below and hit submit to score."
+        marker_line = "Write a comma-separated list of words below, then delete this line and everything above it and hit submit to score."
         # read user words from issue text
         if user_words is None or marker_line not in user_words:
             user_words = ['']
