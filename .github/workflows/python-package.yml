@@ -36,4 +36,4 @@ jobs:
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
     - name: Shake
       run: |
-        python -c "print('shook!')"
+        python -c "import boggle.boggle; boggle.Board().play()"
