@@ -199,6 +199,7 @@ class Board:
         query = self.display_github() + "\n\n" + marker_line + "\n\n"
         linkstr = ISSUE_BASE_URL + urllib.parse.quote(query)
         readme_str = '\n\n'.join(["# Hi there!"
+                                  , "Please join me for a game of boggle."
                                   , "## Current board"
                                   , "Jot down some words you see!"
                                   , self.display_github()
