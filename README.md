@@ -5,10 +5,10 @@
 Jot down some words you see!
 
 ```
-T N O L 
-F M E A 
-R Z W E 
-A E O P 
+T A G G 
+E N K T 
+D R L I 
+H L O S 
 ```
 
 Valid words consist of strings of letters connected vertically, horizontally, or diagonally, with each letter being used at most once per word.
@@ -16,15 +16,15 @@ Valid words consist of strings of letters connected vertically, horizontally, or
 ## Last board:
 
 ```
-R S E W 
-R I M L 
-E E J S 
-R A R N 
+T N O L 
+F M E A 
+R Z W E 
+A E O P 
 ```
 
 latest score: 0
 
-highest possible: 226
+highest possible: 129
 
 your valid words:
 
@@ -40,4 +40,4 @@ words not in puzzle:
 
 all valid words:
 
-ae, aerie, aerier, aeries, ajee, ar, are, arere, ars, ea, ear, earn, earns, ears, ee, eerie, eisel, eisels, el, elm, elmier, elms, els, em, eme, emeer, emeers, emes, emir, emirs, ems, er, era, ere, ern, erns, err, errs, ers, es, ire, is, ism, isms, ja, jar, jars, jee, jeer, jeers, jerries, jirre, jism, jisms, lei, leir, leirs, leis, leme, les, lew, lwei, lweis, me, meare, mee, meer, meers, mel, mels, mere, merer, meri, meris, merrier, merries, merse, mes, mew, mewl, mewls, mi, mir, mire, mirs, mis, mise, raj, rare, raree, rarer, re, rear, rearer, rearers, rears, ree, reearn, reearns, rei, reis, rem, remise, rems, rerise, riel, riels, riem, riems, rim, rime, rimer, rimers, rimes, rims, rise, sei, seir, sel, sels, seme, semee, semi, semie, sew, si, sim, sims, sir, sire, siree, sirree, slew, smear, smearer, smearers, smears, smee, smew, smir, smirr, smirrs, smirs, sri, we, weir, weirs, wem, wems
+ae, aeon, al, ale, alee, alew, aloe, alone, ar, are, arew, arf, arm, aw, awe, awee, aweel, azo, ea, eale, ear, ee, eel, een, el, em, emo, en, enol, eon, er, era, erf, ewe, ewer, fra, frae, la, law, lawer, lawmen, lea, lee, leep, lemon, leno, lent, lew, lez, lo, lome, loment, lone, me, meal, mee, mel, mela, melon, men, meno, ment, mew, meze, mo, moa, moe, mol, mola, mole, mon, mzee, ne, neal, nee, neep, new, newer, no, noel, nole, nom, nome, oe, ole, olea, olent, om, omen, on, one, op, ope, ow, owe, ower, pe, pea, peal, pee, peel, peen, pew, po, pow, power, poz, raze, razee, re, reo, rew, rez, wae, wale, we, weal, wear, weazen, wee, weel, weem, ween, weep, wem, wen, went, wo, woe, wop, za, zarf, zea, zeal, zee, zel, zo, zoea, zoeae, zoeal
