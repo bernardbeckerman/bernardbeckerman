@@ -24,7 +24,7 @@ jobs:
         echo ::set-env name=REPOSITORY::${{ github.repository }}
         echo ::set-env name=EVENT_ISSUE_NUMBER::${{ github.event.issue.number }}
         echo ::set-env name=EVENT_USER_LOGIN::${{ github.event.issue.user.login }}
-        echo ::set-env name=EVENT_ISSUE_COMMENT::${{ github.event.issue.comment.body }}
+        echo ::set-env name=EVENT_ISSUE_COMMENT::${{ github.event.issue.body }}
 
     - name: Set up Python ${{ matrix.python-version }}
       uses: actions/setup-python@v2
@@ -36,4 +36,9 @@ jobs:
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
     - name: Shake
       run: |
+        echo hello
+        echo ${EVENT_ISSUE_COMMENT}
+        echo ${github.event.issue.body}
+        echo after
+        echo ${{github.event.issue.body}}
         python -c "import os, boggle; boggle.Board().play_github(user_words=os.environ['EVENT_ISSUE_COMMENT'])"
