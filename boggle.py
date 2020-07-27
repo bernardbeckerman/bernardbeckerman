@@ -155,13 +155,16 @@ class Board:
         print()
         print("total possible: " + str(sum_word_scores(all_words)))
 
-    def play_github(self, play_minutes = 3):
+    def play_github(self, user_words = None, play_minutes = 3):
+
+        # read user words from issue text
+        if user_words is None:
+            user_words = ''
+        user_words = [istr.strip().lower() for istr in user_words.split(',')]
 
         # read old board from pkl
         with open('board.pkl', 'rb') as f:
             self.grid = pkl.load(f)
-        # read user words from issue text
-        user_words = ['foo','bar','baz']
 
         # score old board
         self.find_words()
