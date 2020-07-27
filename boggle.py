@@ -6,6 +6,7 @@ import pandas as pd
 import random
 from collections import defaultdict
 from datetime import datetime
+import dill as pkl
 
 data_dir = 'https://raw.githubusercontent.com/bernardbeckerman/boggle/master/data/'
 
@@ -151,7 +152,53 @@ class Board:
         print()
         print("all valid words: " + ", ".join(all_words))
         print()
-        print("total possible points: " + str(sum_word_scores(all_words)))
+        print("total possible: " + str(sum_word_scores(all_words)))
+
+    def play_github(self, play_minutes = 3):
+
+        # read old board from pkl
+        with open('board.pkl', 'rb') as f:
+            self.grid = pkl.load(f)
+        # read user words from issue text
+        user_words = ['foo','bar','baz']
+
+        # score old board
+        self.find_words()
+
+        # score user
+        user_words = set(user_words)
+        valid_words = [word for word in user_words if check_word(word, self.trie_head) == True]
+        invalid_words = [word for word in user_words if check_word(word, self.trie_head) == False]
+        all_words = sorted(set(self.find_words()))
+        words_in_puzzle = set(valid_words).intersection(all_words)
+
+        valid_words.sort()
+        invalid_words.sort()
+
+        readme_str = '\n\n'.join(["# Last board:"
+                                  , self.display_github()
+                                  , "your score: " + str(sum_word_scores(set(words_in_puzzle)))
+                                  , "highest possible: " + str(sum_word_scores(set(all_words)))
+                                  , "your valid words:\n" + ", ".join(sorted(set(words_in_puzzle)))
+                                  , "your invalid words:\n" + ", ".join(sorted(set(invalid_words)))
+                                  , "words not in puzzle:\n" + ", ".join(sorted(set(valid_words) - set(words_in_puzzle)))
+                                  , "all valid words: \n" + ", ".join(sorted(set(all_words)))
+        ])
+        
+        # create and save new board
+        self.shake()
+        readme_str = '\n\n'.join(["Hi There!"
+                                  , "# Current board"
+                                  , "Jot down some words you see!"
+                                  , self.display_github()
+                                  , "Valid words consist of strings of 3 letters or longer, connected vertically, horizontally, or diagonally, with each letter being used at most once."
+                                  , readme_str])
+        
+        with open('board.pkl', 'wb') as f:
+            pkl.dump(self.grid, f)
+        # create new readme
+        with open('README.md', 'w') as f:
+            f.write(readme_str)
         
     def display(self):
         for irow in self.grid:
@@ -159,6 +206,16 @@ class Board:
             for jletter in irow:
                 line += jletter.upper() + ' '
             print(line)
+        
+    def display_github(self):
+        grid_str = '```\n'
+        for irow in self.grid:
+            line = ''
+            for jletter in irow:
+                line += jletter.upper() + ' '
+            grid_str += line + '\n'
+        grid_str += '```'
+        return(grid_str)
 
 def main(ngames):
     board = Board()
