@@ -164,7 +164,7 @@ class Board:
         if user_words is None or marker_line not in user_words:
             user_words = ['']
         else:
-            user_words = user_words.split(marker_line)[1]
+            #user_words = user_words.split(marker_line)[1]
             user_words = [istr.strip().lower() for istr in user_words.split(',')]
 
         # read old board from pkl
