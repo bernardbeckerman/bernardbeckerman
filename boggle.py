@@ -159,10 +159,13 @@ class Board:
 
     def play_github(self, user_words = None, play_minutes = 3):
 
+        marker_line = "DON'T DELETE THIS LINE. Write a comma-separated list of words below and hit submit to score."
         # read user words from issue text
         if user_words is None:
-            user_words = ''
-        user_words = [istr.strip().lower() for istr in user_words.split(',')]
+            user_words = ['']
+        else:
+            user_words = user_words.split(marker_line)[1]
+            user_words = [istr.strip().lower() for istr in user_words.split(',')]
 
         # read old board from pkl
         with open('board.pkl', 'rb') as f:
@@ -193,7 +196,7 @@ class Board:
         
         # create and save new board
         self.shake()
-        query = self.display_github() + "\n\n" + "DON'T DELETE THIS LINE. Write a comma-separated list of words below and hit submit to score.\n\n"
+        query = self.display_github() + "\n\n" + marker_line + "\n\n"
         linkstr += urllib.parse.quote(query)
         readme_str = '\n\n'.join(["# Hi there!"
                                   , "## Current board"
