@@ -8,8 +8,10 @@ from collections import defaultdict
 from datetime import datetime
 import dill as pkl
 import os
+import urllib.parse
 
 data_dir = 'https://raw.githubusercontent.com/bernardbeckerman/boggle/master/data/'
+ISSUE_BASE_URL = 'https://github.com/bernardbeckerman/bernardbeckerman/issues/new?title=scratch&body='
 
 #make trie of all English words
 def make_trie(mydict='sowpods'):
@@ -191,11 +193,14 @@ class Board:
         
         # create and save new board
         self.shake()
+        query = self.display_github() + "\n\n" + "DON'T DELETE THIS LINE. Write a comma-separated list of words below and hit submit to score.\n\n"
+        linkstr += urllib.parse.quote(query)
         readme_str = '\n\n'.join(["# Hi there!"
                                   , "## Current board"
                                   , "Jot down some words you see!"
                                   , self.display_github()
                                   , "Valid words consist of strings of letters connected vertically, horizontally, or diagonally, with each letter being used at most once per word."
+                                  , "[Click here](" + linkstr + ") to submit your score and shake the board!"
                                   , readme_str])
         
         with open('board.pkl', 'wb') as f:
