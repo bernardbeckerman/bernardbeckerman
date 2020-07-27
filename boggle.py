@@ -7,6 +7,7 @@ import random
 from collections import defaultdict
 from datetime import datetime
 import dill as pkl
+import os
 
 data_dir = 'https://raw.githubusercontent.com/bernardbeckerman/boggle/master/data/'
 
@@ -199,6 +200,13 @@ class Board:
         # create new readme
         with open('README.md', 'w') as f:
             f.write(readme_str)
+
+        # push to master
+        os.system('git add README.md board.pkl')
+        os.system('git config --global user.email "github-action-bot@example.com"')
+        os.system('git config --global user.name "GitHub Action Bot"`')
+        os.system("git commit -m 'ROBOT: refreshing readme and board'")
+        os.system('git push')
         
     def display(self):
         for irow in self.grid:
