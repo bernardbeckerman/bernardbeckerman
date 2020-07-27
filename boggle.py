@@ -161,7 +161,7 @@ class Board:
 
         marker_line = "DON'T DELETE THIS LINE. Write a comma-separated list of words below and hit submit to score."
         # read user words from issue text
-        if user_words is None:
+        if user_words is None or marker not in user_words:
             user_words = ['']
         else:
             user_words = user_words.split(marker_line)[1]
