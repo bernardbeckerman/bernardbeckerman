@@ -36,4 +36,4 @@ jobs:
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
     - name: Shake
       run: |
-        python -c "import boggle; boggle.Board().play_github(user_words=os.environ['EVENT_ISSUE_COMMENT'])"
+        python -c "import os, boggle; boggle.Board().play_github(user_words=os.environ['EVENT_ISSUE_COMMENT'])"
