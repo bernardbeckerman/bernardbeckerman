@@ -192,7 +192,7 @@ class Board:
                                           , "* words not in puzzle:\n" + ", ".join(sorted(set(valid_words) - set(words_in_puzzle)))
                                           , "* all valid words:\n" + ", ".join(sorted(set(all_words)))])
 
-        readme_str = '\n\n'.join(["## Last board:"
+        readme_str = '\n\n'.join(["### Last board:"
                                   , self.display_github()
                                   , submission_stats_str
         ])
@@ -203,8 +203,8 @@ class Board:
         linkstr = ISSUE_BASE_URL + urllib.parse.quote(query)
         readme_str = '\n\n'.join(["# Hi, I'm Bernie 👋"
                                   , "Welcome to my GitHub! I'm a data scientist in the wind industry 🌬️"
-                                  , "# 🔠 Join me for a game of Boggle!"
-                                  , "Current board:"
+                                  , "## 🔠 Join me for a game of Boggle!"
+                                  , "### Current board:"
                                   , self.display_github()
                                   , "Valid words consist of strings of letters connected vertically, horizontally, or diagonally, with each letter being used at most once per word."
                                   , "[Click here](" + linkstr + ") to jot down some words, submit your score, and shake the board!"
