@@ -5,32 +5,32 @@ Welcome to my GitHub readme! Why not join me for a game of boggle?
 ## Current board
 
 ```
+E W B T 
+T E N O 
+N K U X 
+R S D E 
+```
+
+Valid words consist of strings of letters connected vertically, horizontally, or diagonally, with each letter being used at most once per word.
+
+[Click here](https://github.com/bernardbeckerman/bernardbeckerman/issues/new?title=shake&body=E%20W%20B%20T%20%0AT%20E%20N%20O%20%0AN%20K%20U%20X%20%0AR%20S%20D%20E%20%0A%0AWrite%20a%20comma-separated%20list%20of%20words%20below%2C%20then%20hit%20submit%20to%20score.%0ADelete%20this%20line%20and%20everything%20above%20before%20submitting.%0A%0A) to jot down some words, submit your score, and shake the board!
+
+## Last board:
+
+```
 D F U S 
 X A O G 
 T B T T 
 H S Y N 
 ```
 
-Valid words consist of strings of letters connected vertically, horizontally, or diagonally, with each letter being used at most once per word.
+latest score: 24
 
-[Click here](https://github.com/bernardbeckerman/bernardbeckerman/issues/new?title=shake&body=D%20F%20U%20S%20%0AX%20A%20O%20G%20%0AT%20B%20T%20T%20%0AH%20S%20Y%20N%20%0A%0ADon%27t%20delete%20this%20line.%20Write%20a%20comma-separated%20list%20of%20words%20below%2C%20then%20hit%20submit%20to%20score.%0A%0A) to jot down some words, submit your score, and shake the board!
-
-## Last board:
-
-```
-A U R M 
-L R T A 
-H J U E 
-E T W S 
-```
-
-latest score: 0
-
-highest possible: 155
+highest possible: 145
 
 your valid words:
 
-
+bat, bats, dab, fab, fad, fat, fax, fog, goat, goats, gob, got, oath, oaths, sog, sot, stab, sty, tab, tad, tat, tax
 
 your invalid words:
 
@@ -42,4 +42,4 @@ words not in puzzle:
 
 all valid words:
 
-ae, al, am, ar, arm, art, at, ate, ates, atua, aue, aura, aurae, aural, aurate, aurates, auteur, ea, ear, eat, eau, eaus, eh, es, et, eta, eth, ewt, he, hejra, het, jet, jura, jural, jus, jut, jute, jutes, la, lar, laura, laurae, lur, lute, lutea, lutes, ma, mae, maes, mar, mart, mat, mate, mates, maut, ram, rat, rate, rates, ratu, ratus, rue, rues, rural, ruru, rurus, ruse, rut, ruth, sea, seam, sear, seat, set, seta, sew, sue, suet, sur, sura, sural, surra, sutra, sutural, swear, sweat, ta, tae, taes, tam, tar, tau, taus, taut, te, tea, team, tear, tehr, tes, tew, tews, the, thru, tram, true, trues, truth, tuart, tuatua, turm, tut, tutu, ur, uraeus, urate, urates, urus, us, use, ut, uta, ute, utes, utu, utus, we, wear, wet, weta, wus
+ab, abo, abos, abs, aby, abys, ad, at, att, auf, ax, ba, bad, bat, bath, baths, bats, batt, batty, bo, boa, boat, boats, bog, bogs, bogus, bos, bot, bota, bots, bott, botts, botty, by, bys, da, dab, dabs, dato, datos, datto, dattos, fa, fab, fabs, fad, fat, fats, fatty, fax, fob, fobs, fog, fogs, fou, fouat, fouats, fous, fug, fugs, go, goa, goad, goaf, goat, goats, goaty, gob, gobs, goby, gos, got, gotta, gu, gus, ny, nys, oaf, oat, oath, oaths, oats, ob, oba, obs, of, os, ou, ous, sh, so, sob, soba, sobs, sofa, sog, sot, sots, sou, st, stab, stat, stoa, stoat, stob, stot, sty, sybo, syn, syntax, ta, tab, tabs, tad, tao, taos, tat, tath, taths, tatou, tatous, tats, tatt, tatty, tau, taus, tax, to, toad, toby, tofu, tofus, tog, togs, tot, tots, ufo, ufos, ug, ugs, us
