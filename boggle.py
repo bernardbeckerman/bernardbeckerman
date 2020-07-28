@@ -198,8 +198,8 @@ class Board:
         self.shake()
         query = self.display_issue() + "\n" + marker_line + "\n\n"
         linkstr = ISSUE_BASE_URL + urllib.parse.quote(query)
-        readme_str = '\n\n'.join(["# Hi there!"
-                                  , "Welcome to my GitHub readme! Why not join me for a game of boggle?"
+        readme_str = '\n\n'.join(["# Hi, I'm Bernie 👋"
+                                  , "Welcome to my GitHub readme. Why not join me for a game of boggle?"
                                   , "## Current board"
                                   , self.display_github()
                                   , "Valid words consist of strings of letters connected vertically, horizontally, or diagonally, with each letter being used at most once per word."
