@@ -184,14 +184,17 @@ class Board:
         valid_words.sort()
         invalid_words.sort()
 
+        submission_stats_str = '\n'.join(["Last submission stats:"
+                                          , "* latest score: " + str(sum_word_scores(set(words_in_puzzle)))
+                                          , "* highest possible: " + str(sum_word_scores(set(all_words)))
+                                          , "* valid words guessed:\n" + ", ".join(sorted(set(words_in_puzzle)))
+                                          , "* invalid words guessed:\n" + ", ".join(sorted(set(invalid_words)))
+                                          , "* words not in puzzle:\n" + ", ".join(sorted(set(valid_words) - set(words_in_puzzle)))
+                                          , "* all valid words:\n" + ", ".join(sorted(set(all_words)))])
+
         readme_str = '\n\n'.join(["## Last board:"
                                   , self.display_github()
-                                  , "latest score: " + str(sum_word_scores(set(words_in_puzzle)))
-                                  , "highest possible: " + str(sum_word_scores(set(all_words)))
-                                  , "your valid words:\n\n" + ", ".join(sorted(set(words_in_puzzle)))
-                                  , "your invalid words:\n\n" + ", ".join(sorted(set(invalid_words)))
-                                  , "words not in puzzle:\n\n" + ", ".join(sorted(set(valid_words) - set(words_in_puzzle)))
-                                  , "all valid words:\n\n" + ", ".join(sorted(set(all_words)))
+                                  , submission_stats_str
         ])
         
         # create and save new board
