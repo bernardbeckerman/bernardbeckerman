@@ -159,12 +159,12 @@ class Board:
 
     def play_github(self, user_words = None, play_minutes = 3):
 
-        marker_line = "Write a comma-separated list of words below, then delete this line and everything above it and hit submit to score."
+        marker_line = "Don't delete this line. Write a comma-separated list of words below, then hit submit to score."
         # read user words from issue text
-        if user_words is None:# or marker_line not in user_words:
+        if user_words is None or marker_line not in user_words:
             user_words = ['']
         else:
-            #user_words = user_words.split(marker_line)[1]
+            user_words = user_words.split(marker_line)[1]
             user_words = [istr.strip().lower() for istr in user_words.split(',')]
 
         # read old board from pkl
@@ -196,15 +196,14 @@ class Board:
         
         # create and save new board
         self.shake()
-        query = self.display_issue() + "\n\n" + marker_line + "\n\n"
+        query = self.display_issue() + "\n" + marker_line + "\n\n"
         linkstr = ISSUE_BASE_URL + urllib.parse.quote(query)
         readme_str = '\n\n'.join(["# Hi there!"
-                                  , "Please join me for a game of boggle."
+                                  , "Welcome to my GitHub readme! Why not join me for a game of boggle?"
                                   , "## Current board"
-                                  , "Jot down some words you see!"
                                   , self.display_github()
                                   , "Valid words consist of strings of letters connected vertically, horizontally, or diagonally, with each letter being used at most once per word."
-                                  , "[Click here](" + linkstr + ") to submit your score and shake the board!"
+                                  , "[Click here](" + linkstr + ") to jot down some words, submit your score, and shake the board!"
                                   , readme_str])
         
         with open('board.pkl', 'wb') as f:
