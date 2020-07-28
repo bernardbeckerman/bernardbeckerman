@@ -26,22 +26,9 @@ N W I R
 A T V I 
 ```
 
-latest score: 0
-
-highest possible: 106
-
-your valid words:
-
-
-
-your invalid words:
-
-
-
-words not in puzzle:
-
-
-
-all valid words:
-
-an, ant, anti, at, atilt, aw, awl, awn, flight, flighty, flir, flirt, flirty, flit, fly, gi, gilt, girt, girth, git, grit, grith, it, ita, li, lig, light, liri, lit, lith, na, nat, naw, nth, ny, rig, right, rightly, righty, rit, ta, tan, taw, tawt, thy, ti, tig, tight, tightly, til, tilt, tilth, tit, titan, trig, twa, twat, twig, twight, twilt, twit, tyg, vig, vita, vril, wan, wanly, want, wat, wig, wight, wightly, wilt, wily, wit, witan, with, withy
+* latest score: 0
+* highest possible: 106
+* your valid words:
+* your invalid words:
+* words not in puzzle:
+* all valid words: an, ant, anti, at, atilt, aw, awl, awn, flight, flighty, flir, flirt, flirty, flit, fly, gi, gilt, girt, girth, git, grit, grith, it, ita, li, lig, light, liri, lit, lith, na, nat, naw, nth, ny, rig, right, rightly, righty, rit, ta, tan, taw, tawt, thy, ti, tig, tight, tightly, til, tilt, tilth, tit, titan, trig, twa, twat, twig, twight, twilt, twit, tyg, vig, vita, vril, wan, wanly, want, wat, wig, wight, wightly, wilt, wily, wit, witan, with, withy
