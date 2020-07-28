@@ -202,7 +202,7 @@ class Board:
         query = self.display_issue() + "\n" + marker_line + "\n\n"
         linkstr = ISSUE_BASE_URL + urllib.parse.quote(query)
         readme_str = '\n\n'.join(["# Hi, I'm Bernie 👋"
-                                  , "Welcome to my GitHub! I'm a data scientist in the wind industry."
+                                  , "Welcome to my GitHub! I'm a data scientist in the wind industry 🌬️"
                                   , "# 🔠 Join me for a game of Boggle!"
                                   , "Current board:"
                                   , self.display_github()
