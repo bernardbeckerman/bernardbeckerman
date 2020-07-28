@@ -199,8 +199,9 @@ class Board:
         query = self.display_issue() + "\n" + marker_line + "\n\n"
         linkstr = ISSUE_BASE_URL + urllib.parse.quote(query)
         readme_str = '\n\n'.join(["# Hi, I'm Bernie 👋"
-                                  , "Welcome to my GitHub readme. Why not join me for a game of boggle 🔠?"
-                                  , "## Current board"
+                                  , "Welcome to my GitHub! I'm a data scientist focused on optimizing wind turbines."
+                                  , "# 🔠 Join me for a game of Boggle!"
+                                  , "Current board:"
                                   , self.display_github()
                                   , "Valid words consist of strings of letters connected vertically, horizontally, or diagonally, with each letter being used at most once per word."
                                   , "[Click here](" + linkstr + ") to jot down some words, submit your score, and shake the board!"
