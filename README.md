@@ -5,28 +5,28 @@ Welcome to my GitHub readme! Why not join me for a game of boggle?
 ## Current board
 
 ```
+D F U S 
+X A O G 
+T B T T 
+H S Y N 
+```
+
+Valid words consist of strings of letters connected vertically, horizontally, or diagonally, with each letter being used at most once per word.
+
+[Click here](https://github.com/bernardbeckerman/bernardbeckerman/issues/new?title=shake&body=D%20F%20U%20S%20%0AX%20A%20O%20G%20%0AT%20B%20T%20T%20%0AH%20S%20Y%20N%20%0A%0ADon%27t%20delete%20this%20line.%20Write%20a%20comma-separated%20list%20of%20words%20below%2C%20then%20hit%20submit%20to%20score.%0A%0A) to jot down some words, submit your score, and shake the board!
+
+## Last board:
+
+```
 A U R M 
 L R T A 
 H J U E 
 E T W S 
 ```
 
-Valid words consist of strings of letters connected vertically, horizontally, or diagonally, with each letter being used at most once per word.
-
-[Click here](https://github.com/bernardbeckerman/bernardbeckerman/issues/new?title=shake&body=A%20U%20R%20M%20%0AL%20R%20T%20A%20%0AH%20J%20U%20E%20%0AE%20T%20W%20S%20%0A%0ADon%27t%20delete%20this%20line.%20Write%20a%20comma-separated%20list%20of%20words%20below%2C%20then%20hit%20submit%20to%20score.%0A%0A) to jot down some words, submit your score, and shake the board!
-
-## Last board:
-
-```
-I W A I 
-S U E N 
-T E M A 
-A N D I 
-```
-
 latest score: 0
 
-highest possible: 423
+highest possible: 155
 
 your valid words:
 
@@ -42,4 +42,4 @@ words not in puzzle:
 
 all valid words:
 
-ad, adeem, admen, adnate, ae, ai, aid, aide, aides, aidmen, aim, aimed, ain, aine, ainee, am, amen, amend, ament, amenta, aments, ami, amid, amide, amides, amnia, amu, amus, amuse, amused, an, ana, anadem, and, ane, anemia, anes, anew, ani, ant, ante, anted, antes, ants, at, ate, ates, atua, aue, aw, awe, awee, da, dae, daimen, dam, dame, dames, damn, dan, de, dean, dee, deem, deen, deewan, deman, deme, demean, den, dent, dents, desi, deus, di, dim, dime, dimes, ea, ean, eat, eats, eau, eaus, ed, ee, een, eina, em, eme, emend, emes, emeu, emeus, emu, emus, en, end, enmew, enmews, es, est, et, eta, etna, etui, etuis, id, ide, idea, ideatum, idee, idem, ident, idents, ides, in, is, ma, mad, made, mae, maid, maiden, man, mana, mane, mani, mania, me, mead, mean, meant, meat, meats, meatus, med, media, mediae, median, mee, meed, mees, meet, meets, mein, men, menad, mend, ment, menta, mes, met, meta, mets, meu, meus, meuse, meused, mew, mews, mewsed, mi, mid, mna, mu, muist, muisted, mus, muse, mused, muset, must, musted, mustee, mut, mutanda, mute, muted, mutes, muts, na, nae, nam, name, named, names, namu, nat, nates, nats, nausea, nauseant, naw, ne, neat, neats, ned, nee, need, neem, nema, nemn, nemned, nest, net, nets, neum, neume, neumes, new, news, newsed, nie, sea, sean, seat, sed, sedan, see, seem, seen, seme, semeia, semen, semi, sen, sena, send, sent, set, seta, si, st, stand, standee, stane, staned, stean, sted, steem, steen, stem, steme, sten, stend, stum, sue, sued, suent, suet, sui, sum, swain, swan, swee, sweed, sweet, swum, ta, tae, taed, taes, tan, tandem, tane, te, tea, ted, tee, teem, teen, teme, ten, tend, tes, tuan, tui, tuis, tum, tumid, um, us, use, used, ut, uta, ute, utes, uts, wae, wai, wain, wan, wane, we, wean, wee, weed, weem, ween, wees, weest, weet, weets, wem, wen, wena, wis, wise, wised, wisent, wist, wisted, wus
+ae, al, am, ar, arm, art, at, ate, ates, atua, aue, aura, aurae, aural, aurate, aurates, auteur, ea, ear, eat, eau, eaus, eh, es, et, eta, eth, ewt, he, hejra, het, jet, jura, jural, jus, jut, jute, jutes, la, lar, laura, laurae, lur, lute, lutea, lutes, ma, mae, maes, mar, mart, mat, mate, mates, maut, ram, rat, rate, rates, ratu, ratus, rue, rues, rural, ruru, rurus, ruse, rut, ruth, sea, seam, sear, seat, set, seta, sew, sue, suet, sur, sura, sural, surra, sutra, sutural, swear, sweat, ta, tae, taes, tam, tar, tau, taus, taut, te, tea, team, tear, tehr, tes, tew, tews, the, thru, tram, true, trues, truth, tuart, tuatua, turm, tut, tutu, ur, uraeus, urate, urates, urus, us, use, ut, uta, ute, utes, utu, utus, we, wear, wet, weta, wus
