@@ -159,12 +159,12 @@ class Board:
 
     def play_github(self, user_words = None, play_minutes = 3):
 
-        marker_line = "Don't delete this line. Write a comma-separated list of words below, then hit submit to score."
+        marker_line = "Write a comma-separated list of words below, then hit submit to score.\nDelete this line and everything above before submitting."
         # read user words from issue text
-        if user_words is None or marker_line not in user_words:
+        if user_words is None:# or marker_line not in user_words:
             user_words = ['']
         else:
-            user_words = user_words.split(marker_line)[1]
+            #user_words = user_words.split(marker_line)[1]
             user_words = [istr.strip().lower() for istr in user_words.split(',')]
 
         # read old board from pkl
