@@ -7,33 +7,33 @@ Welcome to my GitHub! I'm a data scientist in the wind industry 🌬️
 ### Current board:
 
 ```
+O L H T 
+P B I S 
+L W O V 
+S Q A N 
+```
+
+[Click here](https://github.com/bernardbeckerman/bernardbeckerman/issues/new?title=shake&body=O%20L%20H%20T%20%0AP%20B%20I%20%20S%20%0AL%20W%20O%20V%20%0AS%20Q%20A%20N%20%0A%0AWrite%20a%20comma-separated%20list%20of%20words%20below%2C%20then%20hit%20submit%20to%20score.%0ADelete%20this%20line%20and%20everything%20above%20before%20submitting.%0A%0A) to jot down some words, submit your score, and shake the board!
+
+Valid words consist of strings of letters connected vertically, horizontally, or diagonally, with each letter being used at most once per word.
+
+### Last board:
+
+```
 E L X A 
 Y O O T 
 H E R A 
 O D E G 
 ```
 
-Valid words consist of strings of letters connected vertically, horizontally, or diagonally, with each letter being used at most once per word.
-
-[Click here](https://github.com/bernardbeckerman/bernardbeckerman/issues/new?title=shake&body=E%20L%20X%20A%20%0AY%20O%20O%20T%20%0AH%20E%20R%20A%20%0AO%20D%20E%20G%20%0A%0AWrite%20a%20comma-separated%20list%20of%20words%20below%2C%20then%20hit%20submit%20to%20score.%0ADelete%20this%20line%20and%20everything%20above%20before%20submitting.%0A%0A) to jot down some words, submit your score, and shake the board!
-
-### Last board:
-
-```
-S A R O 
-L A A L 
-U T H T 
-U V S L 
-```
-
 Last submission stats:
-* latest score: 31
-* highest possible: 187
+* latest score: 48
+* highest possible: 298
 * valid words guessed:
-aha, alt, altar, halt, halts, hat, hats, haul, hauls, oar, oath, rat, rats, salt, salts, sha, shat, slut, sluts, taro, that, uvula, uvulas
+age, are, art, axle, deer, doe, drag, ear, era, ere, gar, gare, gear, gee, great, greed, groat, heed, here, hod, hoe, hoed, hoot, loo, lore, lox, lye, oar, oat, ode, rag, rage, rat, reed, roo, rot, tag, tar, tare, tared, tax, too, tore, yore
 * invalid words guessed:
-lua
+hooed
 * words not in puzzle:
 
 * all valid words:
-aa, aah, aahs, aal, aals, aas, ah, aha, ahs, al, ala, alar, alas, als, alt, altar, alts, ar, as, asar, at, atlas, atua, atuas, aula, aulas, ha, haar, halo, halt, halts, hao, harl, haro, has, hat, hats, haul, hauls, hault, haut, la, lah, lahar, lahs, lar, las, lat, latah, latahs, lath, laths, lats, latu, lo, loath, lor, loral, luv, luvs, oar, oat, oath, oaths, oats, or, ora, oral, orals, rah, rahs, ras, rat, rata, ratal, ratals, ratas, rath, ratha, rathas, raths, rats, ratu, sal, salt, salts, sar, sat, satara, sau, saul, sault, saults, saut, sauts, sh, sha, shalt, shat, shaul, shauls, slat, slats, slut, sluts, st, star, stat, statal, statua, statuas, ta, taal, taals, taha, tahas, tala, talar, talas, tao, tar, tara, taras, taro, tas, tasar, tat, tatar, tath, taths, tats, tatu, tau, thar, that, ut, uta, utas, uts, utu, uvula, uvular, uvulas
+ae, aero, ag, age, aged, agee, ager, agree, agreed, aorta, aortae, ar, ard, are, ared, arede, areg, areole, art, at, ax, axle, de, dear, deare, dee, deer, deg, dehort, derat, dere, dero, dey, dhol, dhole, dhooly, dhoora, do, doe, doer, doh, dohyo, drag, dragee, drat, dree, dreg, drey, drole, drool, drooly, ea, eagre, ear, eard, eared, eat, ed, edh, ee, eh, el, er, era, ere, ered, erg, eye, eyed, eyer, gae, gaed, gaol, gar, gare, gart, gat, gator, gear, geare, geared, geat, ged, gee, geed, gere, gert, grat, great, gree, greed, grey, groat, grooly, grot, he, heder, hedera, heed, her, herd, here, hereat, hero, heroe, hey, ho, hod, hoe, hoed, hoer, hole, holey, holeyer, holy, hoo, hooey, hooley, hooly, hoord, hoot, hora, horde, hore, hox, hoy, hoyed, hoyle, hye, hyed, hyle, ley, lo, loo, looed, looey, loor, loord, loot, lor, lord, lore, lot, lota, lox, loy, lye, oar, oared, oat, od, ode, odea, oe, oh, ohed, oho, ole, oleo, oo, ooh, oohed, oor, oot, or, ora, ord, ordo, ore, orgeat, ort, ox, oxo, oy, oye, oyer, rag, rage, raged, ragee, rat, rata, rato, ratoo, re, reata, red, rede, redeye, redo, ree, reed, reg, reh, reo, roe, roed, role, roo, root, rootage, rot, rota, ta, tae, taed, tag, tao, tar, tardo, tare, tared, targe, targed, taro, tax, taxol, taxor, to, toe, toed, toerag, toey, tole, too, tool, tor, tora, tore, toro, tree, treed, trey, troely, troy, ye, yede, yeed, yeh, yerd, yo, yore
