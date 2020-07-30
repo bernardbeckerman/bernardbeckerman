@@ -206,8 +206,8 @@ class Board:
                                   , "## 🔠 Join me for a game of Boggle!"
                                   , "### Current board:"
                                   , self.display_github()
-                                  , "Valid words consist of strings of letters connected vertically, horizontally, or diagonally, with each letter being used at most once per word."
                                   , "[Click here](" + linkstr + ") to jot down some words, submit your score, and shake the board!"
+                                  , "Valid words consist of strings of letters connected vertically, horizontally, or diagonally, with each letter being used at most once per word."
                                   , readme_str])
         
         with open('board.pkl', 'wb') as f:
