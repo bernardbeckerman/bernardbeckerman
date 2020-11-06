@@ -7,33 +7,33 @@ Welcome to my GitHub! I'm a data scientist in the wind industry 🌬️
 ### Current board:
 
 ```
-O L H T 
-P B I S 
-L W O V 
-S Q A N 
+E J T O 
+E C O Z 
+U G G R 
+A S T E 
 ```
 
-[Click here](https://github.com/bernardbeckerman/bernardbeckerman/issues/new?title=shake&body=O%20L%20H%20T%20%0AP%20B%20I%20%20S%20%0AL%20W%20O%20V%20%0AS%20Q%20A%20N%20%0A%0AWrite%20a%20comma-separated%20list%20of%20words%20below%2C%20then%20hit%20submit%20to%20score.%0ADelete%20this%20line%20and%20everything%20above%20before%20submitting.%0A%0A) to jot down some words, submit your score, and shake the board!
+[Click here](https://github.com/bernardbeckerman/bernardbeckerman/issues/new?title=shake&body=E%20J%20T%20O%20%0AE%20C%20O%20Z%20%0AU%20G%20G%20R%20%0AA%20S%20T%20E%20%0A%0AWrite%20a%20comma-separated%20list%20of%20words%20below%2C%20then%20hit%20submit%20to%20score.%0ADelete%20this%20line%20and%20everything%20above%20before%20submitting.%0A%0A) to jot down some words, submit your score, and shake the board!
 
 Valid words consist of strings of letters connected vertically, horizontally, or diagonally, with each letter being used at most once per word.
 
 ### Last board:
 
 ```
-E L X A 
-Y O O T 
-H E R A 
-O D E G 
+O L H T 
+P B I S 
+L W O V 
+S Q A N 
 ```
 
 Last submission stats:
-* latest score: 48
-* highest possible: 298
+* latest score: 0
+* highest possible: 174
 * valid words guessed:
-age, are, art, axle, deer, doe, drag, ear, era, ere, gar, gare, gear, gee, great, greed, groat, heed, here, hod, hoe, hoed, hoot, loo, lore, lox, lye, oar, oat, ode, rag, rage, rat, reed, roo, rot, tag, tar, tare, tared, tax, too, tore, yore
+
 * invalid words guessed:
-hooed
+o l h t
 * words not in puzzle:
 
 * all valid words:
-ae, aero, ag, age, aged, agee, ager, agree, agreed, aorta, aortae, ar, ard, are, ared, arede, areg, areole, art, at, ax, axle, de, dear, deare, dee, deer, deg, dehort, derat, dere, dero, dey, dhol, dhole, dhooly, dhoora, do, doe, doer, doh, dohyo, drag, dragee, drat, dree, dreg, drey, drole, drool, drooly, ea, eagre, ear, eard, eared, eat, ed, edh, ee, eh, el, er, era, ere, ered, erg, eye, eyed, eyer, gae, gaed, gaol, gar, gare, gart, gat, gator, gear, geare, geared, geat, ged, gee, geed, gere, gert, grat, great, gree, greed, grey, groat, grooly, grot, he, heder, hedera, heed, her, herd, here, hereat, hero, heroe, hey, ho, hod, hoe, hoed, hoer, hole, holey, holeyer, holy, hoo, hooey, hooley, hooly, hoord, hoot, hora, horde, hore, hox, hoy, hoyed, hoyle, hye, hyed, hyle, ley, lo, loo, looed, looey, loor, loord, loot, lor, lord, lore, lot, lota, lox, loy, lye, oar, oared, oat, od, ode, odea, oe, oh, ohed, oho, ole, oleo, oo, ooh, oohed, oor, oot, or, ora, ord, ordo, ore, orgeat, ort, ox, oxo, oy, oye, oyer, rag, rage, raged, ragee, rat, rata, rato, ratoo, re, reata, red, rede, redeye, redo, ree, reed, reg, reh, reo, roe, roed, role, roo, root, rootage, rot, rota, ta, tae, taed, tag, tao, tar, tardo, tare, tared, targe, targed, taro, tax, taxol, taxor, to, toe, toed, toerag, toey, tole, too, tool, tor, tora, tore, toro, tree, treed, trey, troely, troy, ye, yede, yeed, yeh, yerd, yo, yore
+an, anow, anvil, avion, aviso, avo, avos, avow, avows, aw, awl, awls, bi, bio, bios, bis, bish, bison, bist, bit, bits, blist, bo, boa, boi, boil, bois, bon, bona, bop, bos, bosh, bow, bowl, bowls, bows, hi, his, hist, hit, hits, io, ion, ios, is, ish, iso, it, its, li, lib, lion, lis, list, lit, lith, liths, lits, lo, lob, lobi, lobo, lobos, lop, na, naoi, naos, naw, no, nob, noil, nos, nosh, nova, now, nowl, nowls, nows, ob, obi, obis, obit, obits, obo, oboist, obol, oboli, obos, oi, oil, olio, olios, on, op, os, ova, ovist, ow, owl, owls, po, pol, polio, polios, polis, polish, qua, quoist, quoit, quoits, sh, shit, shiv, shiva, si, sib, silo, sit, sith, so, sob, soil, son, sov, sow, sowl, sowls, sowp, sows, squaw, st, stilb, swan, swish, swith, swits, swob, thio, this, ti, til, tis, van, vaw, vaws, vis, vison, vow, vows, wan, wis, wish, wisht, wist, wit, with, withs, wits, wo, won, wos, wost
